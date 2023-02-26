@@ -1,0 +1,34 @@
+.product_wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.product, .count {
+  font-size: 24px;
+}
+
+.count {
+  font-weight: 900;
+}
+
+.product {
+  margin-right: 30px;
+}
+
+.count {
+  margin-right: 30px;
+}
+
+.delete, .add, .delete_all {
+  background-color: #ffeeee;
+}
+
+.delete:hover, .add:hover, .delete_all:hover {
+  background-color: plum;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.add {
+  margin: 0 10px;
+}

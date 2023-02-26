@@ -1,0 +1,9 @@
+.total {
+  display: flex;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.total_count {
+  margin-right: 50px;
+}

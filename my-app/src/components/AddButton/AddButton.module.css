@@ -1,0 +1,12 @@
+.add {
+  width: 130px;
+  height: 40px;
+  cursor: pointer;
+  background-color: #ffeeee;
+  font-size: 16px;
+}
+
+.add:hover {
+  background-color: plum;
+  transition: .5s;
+}
