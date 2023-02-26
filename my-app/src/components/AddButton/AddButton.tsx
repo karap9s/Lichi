@@ -11,7 +11,7 @@ const AddButton: FC<PropsType> = ({ id, setProducts }) => {
   return (
     <button
       onClick={async () => {
-        await AddProduct(id).then((data: any) => console.log('add', data));
+        await AddProduct(id);
         await GetProducts()
           .then((payload: any) => setProducts(payload.data.data.api_data));
       }}
